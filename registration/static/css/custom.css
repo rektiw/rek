@@ -1,0 +1,28 @@
+
+	#p1{
+		margin-top: 100px;
+	}
+    .main{
+    	height: 50px;
+    	width: 100%;
+    	border: 2px #117a8b;
+    	margin-top: 25px;
+    }
+.main1{
+	height: 250px;
+	width: 100%;
+	border: 2px black;
+}
+	.logo {
+	height: 250px;
+	width: 20%;
+	
+    }
+
+ .ban{
+ 	height: 250px;
+ 	width: 80%;
+	margin-left: 200px;
+	border: 2px solid black;
+ 	}
+

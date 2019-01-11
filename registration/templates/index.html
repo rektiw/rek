@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+{% block content %}
+
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+
+<body>
+	
+	<div class="main1">
+	<div class="logo"> <img src="{% static 'img/web.jpeg' %}" height="100%" width="100%"> </div>
+	</div>
+
+<pre>
+ 	<p id="p1">
+	Name      :  <input type="textfield" name="name">
+	Email     :  <input type="textfield" name="email">
+	Password  :  <input type="Password" name="pwd">
+	                                    
+	                  <button><h6><a href="{% url 'Gmail' %}">Login </a></h6></button><a href="{% url 'Newuser' %}"> <input type="button" value="New user" class="btn btn-danger"></a> </p>	                                   
+</pre>
+</body>
+{% endblock %}
+
+</html>

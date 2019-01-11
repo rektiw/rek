@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+{% block content %}
+<head>
+<title>Welcome</title> 
+</head>
+<body>
+<pre>
+<p id="p1">
+	Email id:   <input type="textfield" name="text">
+
+	password:   <input type="password" name="pass">
+
+	Body:       <input type="textfield" name="text">
+
+                                        <button><h4><a href="{% url 'main' %}"> Send </a></h4></button></p>
+</pre>
+
+</body>
+{% endblock %}
+
+</html>

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+{% block content %}
+<title> </title>
+         <h2>Welcome to webllisto!</h2>
+</head>
+<body>
+<form method="post" action="" enctype="multipart/form-data">
+
+
+{% csrf_token %}
+<pre><center>
+<pre>
+ User Name*  <input type="text" name="UserName" placeholder="Enter User Name" required>   
+<br>
+Password*  <input type="password" name="Password" placeholder="Enter the Password" required/>
+<br>
+ Email*    <input type="text" name="Email" placeholder="Enter the Email" required><br>   
+Address    <textarea name="Address" placeholder="Enter the Address"></textarea>
+<br>
+<input type="Submit"value="Submit"/><br>
+<input type="reset" name="reset"/>
+</pre></center>
+</pre>
+</body>
+
+{% endblock %}
+
+</html>
